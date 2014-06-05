@@ -1,0 +1,200 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Bitter|Roboto+Slab:300);
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+html, body, .pagewrap {
+	height: 100%;
+}
+
+body {
+	background: #fff;
+	color: #000;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.25;
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+.container {
+    width: 1170px;
+	min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+	color: rgba(0,0,0,0.25);
+	font-weight: bold;
+	text-shadow: 0 0 rgba(0,0,0,0);
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: rgba(0,0,0,0.6);
+}
+
+header {
+    margin: 0 auto;
+    width: 1200px;
+    height: 220px;
+    position: fixed;
+    top: 0;
+    background-image: url('../img/transparency.png');
+    z-index: 1;
+}
+
+.title {
+    font-family: Bitter, sans-serif;
+    font-size: 42px;
+    text-align: left;
+    margin-top: 80px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+.content {
+    margin: 240px 200px;
+    font-family: Roboto Slab, serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.home-content {
+    font-family: Roboto Slab, serif;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-left: 40% !important;
+    padding: 0 !important;
+}
+.lead {
+    font-size: 20px;
+    font-family: Bitter, serif;
+    line-height: 1.5;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.fullWidth {
+    width: 1200px;
+}
+
+.background-img {
+    width: 100%;
+    position: fixed;
+    left: 150px;
+    top: 100px;
+    background-image: url('../img/bajacar.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: -1;
+    opacity: .1;
+}
+
+.midsized {
+    width: 55%;
+}
+
+.low {
+    margin-top: 320px;
+}
+/*-------- nav styles ----------*/
+.noStyle ul{
+    list-style: none;
+    margin: 80px 0;
+    padding: 0;
+    margin-right: 40px;
+}
+
+.noStyle ul li {
+    display: inline;
+}
+
+.title a {
+    color: black;
+    font-weight: normal;
+}
+
+.topics {
+	text-align: left;
+}
+
+.topics a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 15px;
+	padding: 0 0 5px;
+	display: inline-block;
+	border-bottom: 3px solid rgba(0,0,0,0.25);
+
+}
+
+.topics a:hover,
+.topics a:focus,
+.topics .active a{
+	color: #22c587;
+	border-color: #44a2ff;
+}
+
+.pageload-link {
+	padding: 13px 20px;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 18px;
+	white-space: nowrap;
+}
+
+.pageload-link:hover {
+	color: #fff;
+}
+
+.blue {
+    color: #44a2ff;
+}
+
+/*------PROJECTS------*/
+.project {
+    height: 300px;
+    width: 740px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    border: 10px solid #44a2ff;
+    opacity: .3;
+}
+
+.project:hover{
+    opacity: .8;
+}
+
+.content a {
+    font-family: Bitter, serif;
+    font-size: 22px;
+    color: black;
+    
+}
+
+.content a span {
+    width: 740px;
+    text-align: center;
+}
+.content a:hover {
+    color: black;
+}
+
+#piloting {
+    background-image: url('../img/cessna.jpg');
+    background-repeat: no-repeat;
+
+}
