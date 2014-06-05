@@ -5,7 +5,7 @@
     <ignored path="chris_site_static.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index7.html" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401246069129" ignored="false" />
-    <file path="/a.dummy" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401931768534" ignored="false" />
+    <file path="/a.dummy" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401984443019" ignored="false" />
     <file path="/component.css" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401846087181" ignored="false" />
     <file path="/demo.css" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401246061555" ignored="false" />
     <file path="/custom.css" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401798413035" ignored="false" />
@@ -15,12 +15,12 @@
     <file path="$PROJECT_DIR$/../wordpress/wp-content/themes/chrispillow/index.php" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401310560821" ignored="false" />
     <file path="/index.php" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401310407701" ignored="false" />
     <file path="$PROJECT_DIR$/../wordpress/wp-content/themes/chrispillow/front-page.php" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401310697571" ignored="false" />
-    <file path="/index.html" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401798514737" ignored="false" />
+    <file path="/index.html" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401979456276" ignored="false" />
     <file path="/_base.mako" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401756492626" ignored="false" />
     <file path="/about.html" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401923558660" ignored="false" />
-    <file path="/style.css" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401977812561" ignored="false" />
-    <file path="/resume.html" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401928082407" ignored="false" />
-    <file path="/projects.html" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401978123691" ignored="false" />
+    <file path="/style.css" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401985276442" ignored="false" />
+    <file path="/resume.html" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401979285343" ignored="false" />
+    <file path="/projects.html" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401985252428" ignored="false" />
     <file path="/animate.css" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401841767309" ignored="false" />
     <file path="$USER_HOME$/Downloads/ArticleIntroEffects 2/index4.html" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401845367555" ignored="false" />
     <file path="$USER_HOME$/Downloads/ArticleIntroEffects 2/css/component.css" changelist="24c5325b-cdcb-4abd-91ef-7e9649923b1b" time="1401845521769" ignored="false" />
@@ -46,7 +46,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="2033" selection-end="2033" vertical-scroll-proportion="-20.125">
+            <state line="11" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
@@ -55,7 +55,7 @@
       <file leaf-file-name="resume.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="18" selection-start="6964" selection-end="6964" vertical-scroll-proportion="-22.625">
+            <state line="47" column="12" selection-start="1572" selection-end="1572" vertical-scroll-proportion="-29.375">
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
       <file leaf-file-name="projects.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="8" selection-start="1265" selection-end="1265" vertical-scroll-proportion="-23.166666">
+            <state line="37" column="14" selection-start="1275" selection-end="1275" vertical-scroll-proportion="-23.125">
               <folding />
             </state>
           </provider>
@@ -73,7 +73,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="8" selection-start="807" selection-end="807" vertical-scroll-proportion="0.16193181">
+            <state line="204" column="8" selection-start="3266" selection-end="3266" vertical-scroll-proportion="0.91477275">
               <folding />
             </state>
           </provider>
@@ -96,8 +96,8 @@
         <option value="$PROJECT_DIR$/css/animate.css/animate.css" />
         <option value="$PROJECT_DIR$/css/component.css" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resume.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
@@ -461,30 +461,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="2033" selection-end="2033" vertical-scroll-proportion="-20.125">
+        <state line="47" column="12" selection-start="1572" selection-end="1572" vertical-scroll-proportion="-29.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="18" selection-start="6964" selection-end="6964" vertical-scroll-proportion="-22.625">
+        <state line="11" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="8" selection-start="1265" selection-end="1265" vertical-scroll-proportion="-23.166666">
+        <state line="37" column="14" selection-start="1275" selection-end="1275" vertical-scroll-proportion="-23.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="8" selection-start="807" selection-end="807" vertical-scroll-proportion="0.16193181">
+        <state line="204" column="8" selection-start="3266" selection-end="3266" vertical-scroll-proportion="0.91477275">
           <folding />
         </state>
       </provider>

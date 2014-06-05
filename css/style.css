@@ -44,6 +44,9 @@ header {
     height: 220px;
     position: fixed;
     top: 0;
+}
+
+#projects header, #resume header{
     background-image: url('../img/transparency.png');
     z-index: 1;
 }
@@ -93,7 +96,7 @@ header {
 .background-img {
     width: 100%;
     position: fixed;
-    left: 150px;
+    left: 350px;
     top: 100px;
     background-image: url('../img/bajacar.jpg');
     background-repeat: no-repeat;
@@ -106,9 +109,6 @@ header {
     width: 55%;
 }
 
-.low {
-    margin-top: 320px;
-}
 /*-------- nav styles ----------*/
 .noStyle ul{
     list-style: none;
@@ -171,11 +171,11 @@ header {
     overflow: hidden;
     margin-bottom: 40px;
     border: 10px solid #44a2ff;
-    opacity: .3;
 }
 
-.project:hover{
-    opacity: .8;
+#piloting {
+    background-image: url('../img/cessna.jpg');
+    background-repeat: no-repeat;
 }
 
 .content a {
@@ -193,8 +193,50 @@ header {
     color: black;
 }
 
-#piloting {
-    background-image: url('../img/cessna.jpg');
-    background-repeat: no-repeat;
+.project p{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 100px;
+}
 
+.project p:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #44a2ff;
+}
+
+/*-----HOME --------*/
+
+#about p {
+    position: relative;
+    top: 320px;
+    width: 700px;
+    font-family: Roboto Slab, serif;
+    font-size: 16px;
+    line-height: 1.4;
+
+}
+
+#about .lead {
+    font-size: 20px;
+    font-family: Bitter, serif;
+    line-height: 1.5;
+}
+/*----Resume ------*/
+
+.heading {
+    font-size: 20px;
+}
+
+.location {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#resume .lead {
+    font-size: 24px;
+    font-weight: bolder;
 }
