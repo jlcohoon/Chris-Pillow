@@ -6,40 +6,46 @@
     <meta name="keywords" content="resume, mechanical, engineering, propulsion, fluids, chris pillow, christopher" />
     <meta name="author" content="Johanna Cohoon" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
 </head>
 <body>
 <div class="container" id="about">
 
-
     <header>
 
-            <div class="title left"><a href="#">Chris Pillow</a></div>
+        <div class="title left"><a href="#">Chris Pillow</a></div>
 
-            <div class="noStyle right">
-                <ul class="topics">
-                    <li class="pageload-link"><a href="projects.html">Projects</a></li>
-                    <li class="pageload-link"><a href="resume.html">Resume</a></li>
-                    <li class="pageload-link"><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+        <div class="noStyle right">
+            <ul class="topics nav">
+                <li class="pageload-link"><a href="resume.html">Resume</a></li>
+                <li class="pageload-link"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
 
     </header>
-    <div class="background-img"></div>
+    <div class="background-img">
+        <div><img class="smaller_img" src="img/20130805_110217.jpg">words words?</div>
+        <div><img class="smaller_img" src="img/20150122_084058.jpg"></div>
+    </div>
 
-        <p class="lead"><span class = "blue">Polaroid Tumblr skateboard typewriter, Austin jean shorts sriracha</span> wayfarers 8-bit VHS paleo aesthetic Brooklyn occupy.
-            Single-origin coffee irony selvage crucifix, forage brunch salvia distillery gentrify. Polaroid whatever wolf bicycle
-            rights Shoreditch, meh before they sold out lo-fi raw denim street art literally. </p>
-        <p>Lo-fi 3 wolf moon bespoke farm-to-table. Keffiyeh craft beer VHS McSweeney's. XOXO pop-up master cleanse High Life
-            bespoke next level. Shabby chic raw denim Godard, YOLO typewriter Schlitz Wes Anderson direct trade craft beer small
-            batch before they sold out distillery four loko next level scenester. Food truck letterpress DIY jean shorts, messenger
-            bag plaid next level. Salvia sartorial Godard vinyl, before they sold out bitters beard kitsch four loko hella.
-            Banjo roof party gentrify iPhone, mumblecore flexitarian Brooklyn salvia brunch letterpress fixie Banksy mlkshk scenester.</p>
-    <div class="footer">
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-                <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
-        </div>
+    <p class="home_info ">Chris Pillow is a veteran of the United States Navy.<br>
+        Hire him!
+    </p>
+
 </div>
 
+<script type="text/javascript" src="slick/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.background-img').slick(
+                {accessibility: true,
+                fade: true,
+                dots: true}
+        );
+    });
+</script>
 </body>
+
 </html>
