@@ -262,14 +262,15 @@ left: 700px;
 .background-img {
     position: fixed;
     top: 240px;
-    width: 650px;
+    width: 600px;
 }
 
 .smaller_img {
-    width: 650px;
-    height: 400px;
+    max-height: 400px;
     overflow: hidden;
+    margin: auto;
 }
+
 
 /*----Resume ------*/
 
