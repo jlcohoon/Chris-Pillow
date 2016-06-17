@@ -1,0 +1,87 @@
+ul#navigation li.external:hover .fa, ul#navigation li:hover .fa, ul#navigation li.currentmenu .fa{
+	color: #cc766c;
+}
+.ul-boxed li {
+	border-left-color:#cc766c;
+}
+ul.ul-card li .dy .year {
+	background-color: #cc766c;
+}
+ul.ul-dates div.dates span {
+	background-color: #cc766c;
+}
+ul.timeline li .date {
+	background: #cc766c;
+}
+ul.timeline li .data {
+	border-left-color: #cc766c;
+}
+.ul-withdetails li .imageoverlay {
+	background: #cc766c;
+}
+.cd-active.cd-dropdown > span {
+	color: #cc766c;
+}
+.cd-active.cd-dropdown ul li span:hover {
+	background: #cc766c;
+}
+.pitems .pubmain .pubassets {
+	border-top-color:#cc766c; 
+}
+.pitems .pubmain .pubassets a:hover,.pitems .pubmain .pubassets a:focus,.pitems .pubmain .pubassets a.pubcollapse {
+	background: #cc766c;
+}
+.contact-office .icon-huge, .contact-lab .icon-huge {
+	color: #cc766c;
+}
+
+.btn-primary {
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    background-color: #cc766c;
+    border-color: #cc766c;
+  
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #bf6e65;
+    border-color: #cc766c;
+}
+
+
+/* socpndary color 
+**************************************************/
+ul.ul-card li .dy .degree {
+	background-color: #bf6e65;
+}
+ul.ul-dates div.dates span:last-child {
+	background-color: #bf6e65;
+}
+ul.timeline li.open .circle {
+	background-color: #bf6e65;
+}
+ul.timeline li.open .data {
+	border-color: #bf6e65;
+}
+#labp-heads-wrap {
+	background-color: #bf6e65;
+}
+#labp-heads-wrap:after{
+	border-top-color: #bf6e65;
+}
+
+
+
+
+
+
+
+
+
+
+
