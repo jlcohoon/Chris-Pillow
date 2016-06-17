@@ -224,6 +224,7 @@ ul#navigation > li {
 	float: none;
 	clear: both;
 	cursor: pointer;
+    margin-left: 30px;
     /*CUSTOMIZED FOR CHRIS PILLOW*/
 }
 
