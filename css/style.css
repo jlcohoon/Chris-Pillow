@@ -28,11 +28,24 @@
 	src: local('Lato Italic'), local('Lato-Italic'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/oUan5VrEkpzIazlUe5ieaA.woff) format('woff');
 }
 
+html { 
+  background: url(../img/home.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
 	font-size: 16px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	background: #4D4D4D;
+}
+
+html, body {
+    padding:0;
+    margin:0;
 }
 
 a,a:hover,a:focus {
@@ -78,6 +91,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	left: 0;
 	bottom: 0;
 	background-image: none;
+    z-index: 100;
     /*CUSTOMIZED FOR CHRIS PILLOW*/
 }
 
@@ -379,7 +393,24 @@ ul#navigation li .fa {
 .page .section{
 	padding: 70px 0;
 	position: relative;
+    height:100%;
+    min-height:100%;
+    width:100%;
+    z-index:1000;
 }
+
+#biography {
+    position:fixed;
+    z-index: -100;
+    left: 0;
+    top: 0;
+}
+
+#about{
+    margin-top: 60%;
+    box-shadow:  0px 0px 4px black;
+}
+
 
 .section-container {
 	padding: 0 10%;
@@ -510,10 +541,6 @@ ul.ul-card li .dy span {
 	margin: 0;
 }
 
-/*ul.ul-card li .dy .degree {
-	background-color: #03bb7a;
-}*/
-
 ul.ul-card li .dy .year {
 	/*background-color: #03cc85;*/
 	-webkit-box-shadow: -3px 0px 7px -3px rgba(68, 68, 68, 0.5);
@@ -529,6 +556,13 @@ ul.ul-card li .description p {
 ul.ul-card li .description p.where {
 	font-weight: 300;
 	font-size: 14px;
+}
+
+@media screen and (max-width: 535px) {
+    
+    ul.ul-card li .description p:first-of-type  {
+        margin-top: 30px;
+    }
 }
 
 /* ul-dates
@@ -961,6 +995,12 @@ ul.timeline li .data .text {
 
 /* home
  **************************************************/
+.home {
+    position:absolute;
+        height:100%;
+        width:100%;
+}
+
  .home .pageheader{
 	background-image: url(../img/home.png);
 	background-repeat: no-repeat;
